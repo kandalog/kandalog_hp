@@ -5,9 +5,11 @@ import { Article } from "@/features/home/components/Article";
 export const Home = () => {
   return (
     <>
-      <AboutMe />
-      <MyProject />
-      <Article />
+      <div className="home">
+        <AboutMe />
+        <MyProject />
+        <Article />
+      </div>
     </>
   );
 };

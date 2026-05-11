@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <>
       {/* ヘッダー */}
-      <header className="header">
+      <header className="common header">
         <div className="header__inner">
           {/* ヘッダーの左側 */}
           <div className="header__title">
@@ -14,7 +14,7 @@ export const Header = () => {
               height={40}
               alt="ヘッダーのアイコン"
             ></Image>
-            <p className="header__title">kandalog</p>
+            <p className="header__text">kandalog</p>
           </div>
           {/* ヘッダーの右側 */}
           <nav className="header__nav">

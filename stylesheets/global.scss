@@ -39,4 +39,9 @@ body {
 .common.inner {
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+}
+
+img {
+  display: inline-block;
 }

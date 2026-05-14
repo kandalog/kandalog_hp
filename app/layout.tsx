@@ -7,12 +7,8 @@ import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 
 const notoSansJp = Noto_Sans_JP({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  preload: false,
   variable: "--font-noto-sans-jp",
-  display: "swap",
-  fallback: ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "sans-serif"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
